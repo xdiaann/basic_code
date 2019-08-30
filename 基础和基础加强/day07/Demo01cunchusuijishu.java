@@ -15,9 +15,7 @@ public class Demo01cunchusuijishu {
             int num=r.nextInt(33)+1;
             list.add(num);
         }
-        for (int i = 0; i <list.size() ; i++) {
-            System.out.println(list.get(i));
-        }
+        System.out.println(list);
     }
 
 }

@@ -34,6 +34,6 @@ public class DemoSystem {
             System.out.println(i);
         }
         long e = System.currentTimeMillis();
-        System.out.println(e-s);
+        System.out.println("循环打印数字1-9999所需要使用的时间:"+(e-s)+"ms");
     }
 }

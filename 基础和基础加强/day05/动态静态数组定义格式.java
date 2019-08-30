@@ -1,6 +1,6 @@
 package 基础和基础加强.day05;
 
-public class TESTclass {
+public class 动态静态数组定义格式 {
 
     public static void main(String[] args) {
         //动态数组

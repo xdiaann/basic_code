@@ -1,6 +1,6 @@
 package 基础和基础加强.day04;
 
-public class chengfabiao99 {
+public class 九九乘法表 {
 
     public static void main(String[] args){
         for(int a=1;a<=9;a++){

@@ -7,14 +7,14 @@ package 基础和基础加强.day05;
 //	4.求出班级的总分数
 public class Zuoye04 {
     public static void main(String[] args) {
-        int[] score = {80, 90, 85, 90, 78, 88, 89, 93, 98, 75};
+        int[] score = {80, 90, 85, 90, 78, 88, 89, 93, 98, 75,33,-1};
         int sum=0;
         int bj=0;
-        for (int i = 0; i < score.length; i++) {
-            if(score[i]<60){
+        for (int value : score) {
+            if (value < 60) {
                 bj++;
             }
-            sum+=score[i];
+            sum += value;
         }
         System.out.println("总分数:"+sum);
         System.out.println("平均分："+(sum/score.length));

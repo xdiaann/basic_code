@@ -17,11 +17,10 @@ public class Demo04ArrayListReturnfangfa {
             int num = r.nextInt(100) + 1;
             bigList.add(num);   //把随机数放入大集合
         }
+        System.out.println("bigList: "+bigList);
         ArrayList<Integer> a = getSmallList(bigList);
         System.out.println("偶数总共有多少个：" + a.size());
-        for (int i = 0; i < a.size(); i++) {
-            System.out.print(a.get(i) + " ");
-        }
+        System.out.println("smallList: "+a);
     }
 
     public static ArrayList<Integer> getSmallList(ArrayList<Integer> bigList) {

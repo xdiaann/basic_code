@@ -4,7 +4,6 @@ package 基础和基础加强.jiuyeDay06;
 //	要求:请用多线程模拟卖票过程并打印剩余电影票的数量
 public class MyRunnable implements Runnable {
     private int ticket = 1000;
-    Object obj = new Object();
 
     @Override
     public void run() {

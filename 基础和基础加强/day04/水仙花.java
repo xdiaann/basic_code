@@ -1,6 +1,6 @@
 package 基础和基础加强.day04;
 //0-1000内 一个 3 位数，它的每个位上的数字的 3次幂之和等于它本身（例如：1^3 + 5^3+ 3^3 = 153）。
-public class Demo01水仙花 {
+public class 水仙花 {
     public static void main(String[] args) {
         int x = 0; //定义水仙花数的个数
         for(int i=100;i<=999;i++){

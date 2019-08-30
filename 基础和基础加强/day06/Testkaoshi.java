@@ -1,6 +1,7 @@
 package 基础和基础加强.day06;
+
 //使用for循环,求出100-1000之间的个位
-// 个位，不包含1十位不包含2百位不包含3的所有奇数之和.
+// 个位不包含1  十位不包含2  百位不包含3的所有奇数之和.
 public class Testkaoshi {
     public static void main(String[] args) {
         int sum = 0;

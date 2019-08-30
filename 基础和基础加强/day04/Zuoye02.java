@@ -6,6 +6,6 @@ public class Zuoye02 {
 
     }
     public static int sum(int a,int b){
-        return (a)%b ;
+        return (a)%b ;//7
     }
 }

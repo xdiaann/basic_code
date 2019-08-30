@@ -1,6 +1,7 @@
 package 基础和基础加强.day04;
 
-public class Demo05qiuhe {
+//
+public class 零到100求和 {
     public static void main(String[] args) {
         System.out.println(getsum());
         System.out.println(getsum01(55));

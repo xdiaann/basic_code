@@ -8,8 +8,8 @@ public class Demo05Arrayparam {
     }
 
     public static void printArray(int[] array){
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+        for (int value : array) {
+            System.out.println(value);
         }
     }
 }

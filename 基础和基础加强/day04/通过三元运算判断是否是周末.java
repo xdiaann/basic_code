@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class 通过三元运算判断是否是周末 {
     public static void main(String[] args) {
-
-
-
+        method1();
     }
 
     private static void method1() {

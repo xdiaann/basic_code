@@ -6,13 +6,13 @@ public class demo03ArrayReverse {
         int[] array = {11, 22, 33, 44, 55, 66, 77};
         for (int min = 0, max = array.length - 1; min < max; min++, max--) {
             //定义第三个数，用倒手的方式实现元素交换
-            int temp = 0;
+            int temp;
             temp = array[max];
             array[max] = array[min];
             array[min] = temp;
         }
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+",");
+        for (int value : array) {
+            System.out.print(value + ",");
         }
     }
 }
