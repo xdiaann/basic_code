@@ -1,0 +1,12 @@
+
+/.idea
+*.class
+*.iml
+/target
+target
+.idea
+/out
+/libs
+*.docx
+*.jar
+*.rar
