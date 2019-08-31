@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /.idea
 *.class
@@ -10,3 +11,16 @@ target
 *.docx
 *.jar
 *.rar
+=======
+/.idea
+*.class
+*.iml
+/target
+target
+.idea
+/out
+/libs
+*.docx
+*.jar
+*.rar
+>>>>>>> d5388f6b175284e7ef47ca003eff3d236cf8e35c
