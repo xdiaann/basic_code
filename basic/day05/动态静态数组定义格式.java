@@ -10,6 +10,7 @@ public class 动态静态数组定义格式 {
         //静态数组
         int[] arrayD = new int[]{5, 15, 25};
         String[] arrayE = new String[]{"hello", "world", "java"};
+        String[] arrayF = {"hello", "world", "java"};
         System.out.println(arrayE.length);
         //可以分成两步创建
         int[] arrayG;

@@ -1,5 +1,7 @@
 package day05;
 
+import java.util.Arrays;
+
 public class Demo01arrayfuzhi {
     public static void main(String[] args) {
         //动态
@@ -17,10 +19,10 @@ public class Demo01arrayfuzhi {
         System.out.println(array[4] = 55);
         //静态
         int[] array01 = {1, 2, 3, 4, 5};
-        System.out.println(array01[0]);
+        System.out.println(Arrays.toString(array01));//[1, 2, 3, 4, 5]
         //遍历动态数组
         for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+",");
+            System.out.print(array[i]+" ");//11 22 33 44 55
 
         }
     }
